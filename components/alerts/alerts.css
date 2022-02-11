@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap');
+
+
+:root{
+    --background-color:#F9F9F9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    background-color: #456268;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.branding{
+    display: flex;
+    align-items: center;
+    /* gap:1rem; */
+    margin-left: 2rem;
+    padding: 1rem;
+    
+}
+.brand_image{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.brand_name{
+    margin-left: 1rem;
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color: whitesmoke;
+}
+.navbar{
+    margin-left: auto;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.item-1{
+    margin-right: 3rem;
+}
+
+.doc{
+    color:whitesmoke;
+}
+
+.github-icon{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+/* SIDE-BAR */
+
+.sidebar-container{
+    /* background-color: yellowgreen; */
+    width:16%;
+    color:#393E46;
+}
+
+.sidebar-title{
+    font-size: 1.3rem;     
+    padding:1.3rem;
+    text-transform: uppercase;
+}
+
+.sidebar-items{
+    padding-left: 2rem;
+}
+
+.sidebar-items .list-item{
+    padding-bottom: 1.3rem;
+}
+
