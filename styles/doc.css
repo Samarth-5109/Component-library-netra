@@ -2,9 +2,7 @@
 
 
 :root{
-    --primary-color:#456568;
     --background-color:#F9F9F9;
-    
 }
 
 *{
@@ -15,30 +13,27 @@
 }
 
 li{
-    display: inline-block;
     list-style: none;
 }
 
 a{
     text-decoration: none;
 }
-
 .nav-container{
     display: flex;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: #456268;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-
 .branding{
     display: flex;
     align-items: center;
+    /* gap:1rem; */
     margin-left: 2rem;
     padding: 1rem;
     
 }
-
 .brand_image{
     width: 3.5rem;
     height: 3.5rem;
@@ -47,9 +42,9 @@ a{
 .brand_name{
     margin-left: 1rem;
     font-size: 2rem;
+    /* font-weight: bold; */
     color: whitesmoke;
 }
-
 .navbar{
     margin-left: auto;
 }
@@ -73,49 +68,25 @@ a{
     font-size: 2rem;
 }
 
-/* LANDING SECTION */
+/* SIDE-BAR */
 
-.hero-container{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
-    
+.sidebar-container{
+    /* background-color: yellowgreen; */
+    width:16%;
+    color:#393E46;
 }
 
-.hero-section .hero-image{
-    width:85%;
-    margin-top: 10rem;
-    margin-left: 1rem;
+.sidebar-title{
+    font-size: 1.3rem;     
+    padding:1.3rem;
+    text-transform: uppercase;
 }
 
-.main-text .welcome-msg{
-    margin-top: 16rem;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
+.sidebar-items{
+    padding-left: 2rem;
 }
 
-.main-text .btn{
-    padding: 1rem;
-    border-radius: 5px;
-    border: 1px solid #456268;
-    background-color: #456268;
-    color: #fff;
+.sidebar-items .list-item{
+    padding-bottom: 1.3rem;
 }
 
-.btn:hover{
-    background-color: #fff;
-    color:#456268;
-}
-
-.footer-container{
-    text-align: center;
-    margin-top: 5rem;
-    background-color: #456268;
-    padding: 1rem;
-}
-
-.sm-links{
-    margin-right:1rem;
-    color: #fff;
-}
