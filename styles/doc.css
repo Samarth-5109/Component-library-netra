@@ -2,7 +2,8 @@
 
 
 :root{
-    --background-color:#F9F9F9;
+    --primary-color:#456568;
+    --secondary-color:#F9F9F9;
 }
 
 *{
@@ -22,7 +23,7 @@ a{
 .nav-container{
     display: flex;
     align-items: center;
-    background-color: #456268;
+    background-color: var(--primary-color);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
@@ -43,7 +44,7 @@ a{
     margin-left: 1rem;
     font-size: 2rem;
     /* font-weight: bold; */
-    color: whitesmoke;
+    color: var(--secondary-color);
 }
 .navbar{
     margin-left: auto;
@@ -60,19 +61,21 @@ a{
 }
 
 .doc{
-    color:whitesmoke;
+    color: var(--secondary-color);
 }
 
 .github-icon{
-    color: whitesmoke;
+    color: var(--secondary-color);
     font-size: 2rem;
 }
 
 /* SIDE-BAR */
-
+.wrapper{
+    display: flex;
+    
+}
 .sidebar-container{
-    /* background-color: yellowgreen; */
-    width:16%;
+    width:25%;
     color:#393E46;
 }
 
@@ -90,3 +93,28 @@ a{
     padding-bottom: 1.3rem;
 }
 
+.title-wrapper .title{
+    font-size: 2.5rem;
+    
+}
+
+.about{
+    margin-top:0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.type-title{
+    font-size: 1.6rem;
+}
+
+.main-container{
+    margin:1.5rem;
+}
+.types-container{
+   
+  /* display: flex; */
+}
+
+.code-Ss{
+    margin-bottom: 2rem;
+}
