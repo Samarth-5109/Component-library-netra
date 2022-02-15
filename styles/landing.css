@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap');
+
+
+:root{
+    --primary-color:#456568;
+    --secondary-color:whitesmoke;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.branding{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    padding: 1rem;
+    
+}
+
+.brand_image{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.brand_name{
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+.navbar{
+    margin-left: auto;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.item-1{
+    margin-right: 3rem;
+}
+
+.doc{
+    color: var(--secondary-color);
+}
+
+.github-icon{
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+/* LANDING SECTION */
+
+.hero-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    
+}
+
+.hero-section .hero-image{
+    width:85%;
+    margin-top: 10rem;
+    margin-left: 1rem;
+}
+
+.main-text .welcome-msg{
+    margin-top: 16rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.main-text .btn{
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #456268;
+    background-color: #456268;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color:#456268;
+}
+
+.footer-container{
+    text-align: center;
+    margin-top: 5rem;
+    background-color: #456268;
+    padding: 1rem;
+}
+
+.sm-links{
+    margin-right:1rem;
+    color: #fff;
+}
