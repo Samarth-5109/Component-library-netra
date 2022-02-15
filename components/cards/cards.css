@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap');
+@import url("../../styles/doc.css");
+
+
+.btn-wrapper{
+    margin-top: 3rem;
+}
+
+.basic-card{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    box-shadow:20px 20px 50px grey;  
+    border-radius: 5px;
+}
+.card-title{
+    padding: 10px;
+}
+
+.title{
+    color:#323232;
+
+}
+
+.author{
+    color:#99A799;
+}
+
+.content{
+    padding-left:10px ;
+}
+
+.price-container{
+    padding-left:10px;
+    margin-top:10px;
+  }
+  .price{
+    color:var(--attention);
+    margin-top:2rem;
+    
+  }
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.action-btn{
+    padding:8px;
+    background-color: #456568;
+    border: 0 solid transparent;
+    color: whitesmoke;
+    border-radius:5px;
+}
+
+.card-icons{
+    padding: 8px;
+}
+
+.action-btn:hover, .card-icons:hover{
+    background-color: whitesmoke;
+    color:#456568;
+}
+
+.horizontalCard{
+    position: relative;
+/*     height:130px; */
+}
+
+.horizontalImage{
+    width:7rem;
+}
+.horizontalTitle{
+    position: absolute;
+    left: 7rem;
+}
+
+.horizontalContent{
+    position:absolute;
+    top:4rem;
+    left:7rem;
+}
+
+.card-badge{
+    background-color:var(--attention);
+    padding:3px;
+    text-align:center;
+    border-radius:5px;
+    color:whitesmoke;
+    position:absolute;
+  }
+
+  .card-cross-icon{
+      color:#2C3333;
+      position:absolute;
+      font-size:1.5rem;
+      right:-10px;
+      top:-12px;
+    }
+
+
+    .text-over-card{
+        position: relative;
+        
+    }
+    .card2-title{
+        color:var(--attention);
+        font-weight:bold;
+    }
+    .card2-author{
+        color:var(--attention);
+        font-weight:bold;
+    }
+    .title-over-media{
+        position: absolute;
+        bottom:8rem;
+        
+    }
+    
+    .card2-content{
+        margin-top:10px;
+    }
