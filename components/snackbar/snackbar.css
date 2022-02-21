@@ -1,0 +1,50 @@
+@import url("../../styles/doc.css");
+.wrapper {
+  display: flex;
+}
+.snackbar {
+  width: 24rem;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: var(--secondary-color);
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+
+.retry {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-icon {
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.container-2 {
+  display: flex;
+  width: 29rem;
+  flex-direction: column;
+  background-color: #212121;
+  padding: 1rem;
+  color: var(--secondary-color);
+  font-family: "Roboto", sans-serif;
+  gap: 1.5rem;
+  border-radius: 5px;
+}
+
+.labelclass {
+  margin-left: auto;
+  padding-right: 1rem;
+}
+
+.retryStacked {
+  padding-right: 2rem;
+}
