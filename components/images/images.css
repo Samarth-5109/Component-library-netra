@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap");
 @import url("../../styles/doc.css");
 
-
-
-.btn-wrapper{
-    margin-top: 3rem;
+.btn-wrapper {
+  margin-top: 3rem;
 }
 /* FOR IMAGES */
-
-.responsive-image{
-    max-width: 60%;
-    height: auto;
-
+.responsive-image-container {
+  width: 40rem;
+}
+.responsive-image-container .responsive-image {
+  max-width: 100%;
+  height: auto;
 }
 
-.round-image{
-    border-radius: 50%;
+.round-image {
+  border-radius: 50%;
 }
