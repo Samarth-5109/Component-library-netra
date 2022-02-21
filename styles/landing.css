@@ -3,7 +3,7 @@
 
 :root{
     --primary-color:#456568;
-    --background-color:#F9F9F9;
+    --secondary-color:whitesmoke;
     
 }
 
@@ -47,7 +47,7 @@ a{
 .brand_name{
     margin-left: 1rem;
     font-size: 2rem;
-    color: whitesmoke;
+    color: var(--secondary-color);
 }
 
 .navbar{
@@ -65,11 +65,11 @@ a{
 }
 
 .doc{
-    color:whitesmoke;
+    color: var(--secondary-color);
 }
 
 .github-icon{
-    color: whitesmoke;
+    color: var(--secondary-color);
     font-size: 2rem;
 }
 

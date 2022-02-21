@@ -1,0 +1,49 @@
+@import url(../../styles/doc.css);
+
+
+/* COMPONENT ALERT SECTION */
+
+.title-wrapper .title{
+    font-size: 2.5rem;
+    
+}
+
+.about{
+    margin-top:0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.type-title{
+    font-size: 1.6rem;
+}
+
+.main-container{
+    margin:1.5rem;
+}
+
+.alert{
+    width:40rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin:1rem;
+}
+
+ .alert-success{
+    background-color: #E7FBBE;
+    color: #52734D;
+}
+
+.alert-info{
+    background-color: #B5EAEA;
+    color: #54BAB9;
+}
+
+.alert-warning{
+    background-color: #F2F5C8;
+    color:#D89216;
+}
+
+.alert-danger{
+    background-color: #FF9292;
+    color:#FF4646;
+}
