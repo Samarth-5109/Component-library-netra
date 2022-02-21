@@ -1,0 +1,44 @@
+@import url("../../styles/doc.css");
+
+.wrapper {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  color: var(--secondary-color);
+}
+
+.nav-btn {
+  padding: 9px 2px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
