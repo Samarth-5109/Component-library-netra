@@ -4,7 +4,6 @@
 :root{
     --primary-color:#456568;
     --secondary-color:whitesmoke;
-    
 }
 
 *{
@@ -15,14 +14,12 @@
 }
 
 li{
-    display: inline-block;
     list-style: none;
 }
 
 a{
     text-decoration: none;
 }
-
 .nav-container{
     display: flex;
     align-items: center;
@@ -30,15 +27,14 @@ a{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-
 .branding{
     display: flex;
     align-items: center;
+    /* gap:1rem; */
     margin-left: 2rem;
     padding: 1rem;
     
 }
-
 .brand_image{
     width: 3.5rem;
     height: 3.5rem;
@@ -49,7 +45,6 @@ a{
     font-size: 2rem;
     color: var(--secondary-color);
 }
-
 .navbar{
     margin-left: auto;
 }
@@ -73,49 +68,91 @@ a{
     font-size: 2rem;
 }
 
-/* LANDING SECTION */
-
-.hero-container{
+/* SIDE-BAR */
+.wrapper{
     display: flex;
-    width: 100%;
-    justify-content: center;
+    
+}
+.sidebar-container{ 
+    width:25%;
+    color:#393E46;
+}
 
+.sidebar-title{
+    font-size: 1.3rem;     
+    margin:1.5rem;
+    text-transform: uppercase;
+}
+
+.sidebar-items{
+    padding-left: 2rem;
+}
+
+.sidebar-items .list-item{
+    padding-bottom: 1.3rem;
+}
+
+/* COMPONENT AVATAR SECTION */
+
+.title-wrapper .title{
+    font-size: 2.5rem;
     
 }
 
-.hero-section .hero-image{
-    width:85%;
-    margin-top: 10rem;
-    margin-left: 1rem;
+.about{
+    margin-top:0.8rem;
+    margin-bottom: 1.5rem;
 }
 
-.main-text .welcome-msg{
-    margin-top: 16rem;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
+.type-title{
+    font-size: 1.6rem;
 }
 
-.main-text .btn{
-    padding: 1rem;
-    border-radius: 5px;
-    border: 1px solid #456268;
-    background-color: #456268;
-    color: #fff;
+.main-container{
+    margin:1.5rem;
 }
-
-.btn:hover{
-    background-color: #fff;
-    color:#456268;
+.types-container{
+   
+  /* display: flex; */
 }
-
-.footer-container{
-    text-align: center;
-    margin-top: 5rem;
-    background-color: #456268;
-    padding: 1rem;
-}
-
-.sm-links{
+.types-container .round-avatar{
+    width: 8rem;
+    border-radius:50%;
     margin-right:1rem;
-    color: #fff;
 }
+
+.types-container .lg-avatar{
+    width:6rem;
+}
+
+.types-container .sm-avatar{
+    width:4rem;
+}
+
+.types-container .xs-avatar{
+    width:2rem;
+}
+
+/* SQUARE AVATARS */
+
+.square-wrapper{
+    margin-top: 3rem;
+}
+.types-container .square-avatar{
+    width: 8rem;
+    border-radius:8px;
+    margin-right:1rem;
+}
+
+.types-container .lg-avatar{
+    width:6rem;
+}
+
+.types-container .sm-avatar{
+    width:4rem;
+}
+
+.types-container .xs-avatar{
+    width:2rem;
+}
+
