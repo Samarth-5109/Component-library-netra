@@ -3,12 +3,6 @@
 :root {
   --primary-color: #456568;
   --secondary-color: #f9f9f9;
-
-
-:root{
-    --primary-color:#456568;
-    --secondary-color:#F9F9F9;
-
   --attention: red;
 
 }
@@ -85,6 +79,7 @@ a {
   color: #393e46;
 }
 
+
 .sidebar-title {
   font-size: 1.3rem;
   padding: 1.3rem;
@@ -102,10 +97,6 @@ a {
 .title-wrapper .title {
   font-size: 2.5rem;
 
-}
-
-.title-wrapper .title {
-  font-size: 2.5rem;
 }
 
 .about {
@@ -137,6 +128,9 @@ a {
 }
 .types-container{
    
+  /* display: flex; */
+}
+.types-container {
   /* display: flex; */
 }
 
