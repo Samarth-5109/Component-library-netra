@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap');
+
+
+:root{
+    --primary-color:#456568;
+    --secondary-color:whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.branding{
+    display: flex;
+    align-items: center;
+    /* gap:1rem; */
+    margin-left: 2rem;
+    padding: 1rem;
+    
+}
+.brand_image{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.brand_name{
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+.navbar{
+    margin-left: auto;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.item-1{
+    margin-right: 3rem;
+}
+
+.doc{
+    color: var(--secondary-color);
+}
+
+.github-icon{
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+/* SIDE-BAR */
+.wrapper{
+    display: flex;
+    
+}
+.sidebar-container{ 
+    width:25%;
+    color:#393E46;
+}
+
+.sidebar-title{
+    font-size: 1.3rem;     
+    margin:1.5rem;
+    text-transform: uppercase;
+}
+
+.sidebar-items{
+    padding-left: 2rem;
+}
+
+.sidebar-items .list-item{
+    padding-bottom: 1.3rem;
+}
+
+/* COMPONENT AVATAR SECTION */
+
+.title-wrapper .title{
+    font-size: 2.5rem;
+    
+}
+
+.about{
+    margin-top:0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.type-title{
+    font-size: 1.6rem;
+}
+
+.main-container{
+    margin:1.5rem;
+}
+.types-container{
+   
+  /* display: flex; */
+}
+.types-container .round-avatar{
+    width: 8rem;
+    border-radius:50%;
+    margin-right:1rem;
+}
+
+.types-container .lg-avatar{
+    width:6rem;
+}
+
+.types-container .sm-avatar{
+    width:4rem;
+}
+
+.types-container .xs-avatar{
+    width:2rem;
+}
+
+.type-badge-container{
+    display: flex;
+    align-items: center;
+}
+.badge-container{
+    /* background-color: aquamarine; */
+    position: relative;
+    /* display: flex; */
+}
+.badge{
+    background-color: green;
+    width:1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    position:absolute;
+    left:6.2rem;
+    bottom: 1rem;
+
+}
+
+.red-badge-lg{
+    background-color: red;
+    width:1rem;
+    height: 1rem;
+    left:4.7rem;
+    bottom:0.6rem;
+}
+
+.green-badge-sm{
+    width: 0.8rem;
+    height: 0.8rem;
+    left:3rem;
+    bottom:0.5rem;
+}
+
+.red-badge-xs{
+    background-color: red;
+    width:0.6rem;
+    height:0.6rem;
+    left:1.5rem;
+    bottom:0.4rem;
+}
+.type-wrapper-icons{
+    margin-top: 2rem;
+}
+
+.icon-badge-container{
+    margin-top:4rem ;
+}
+.icon{
+    font-size: 1.5rem;
+    
+}
+.badges-on-icon-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.notification{
+    background-color: green;
+    width:1rem;
+    height: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    color: var(--secondary-color);
+
+}
+
+.nfn-cart{
+    left:11rem;
+    bottom: 1rem;
+}
+
+.nfn-bell{
+    left:31.7rem;
+    bottom:1rem;
+}
+
+.nfn-envelope{
+    right:9.1rem;
+    bottom: 0.8rem;
+}
