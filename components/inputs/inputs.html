@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../inputs/inputs.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="nav-container">
+        <div class="branding">
+           <a href="index.html"><img class="brand_image"src="https://cdn-0.emojis.wiki/emoji-pics/google/nazar-amulet-google.png" alt="brand-image"></a> 
+            <span class="brand_name">NETRA UI</span>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-items">
+                <!-- <li><a href="">Home</a></li> -->
+                <li class="list-items item-1"><a href="" class="doc">Documentation</a></li>
+                <li class="list-items item-2"><a href=""><i class="fab fa-github github-icon"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="wrapper">
+        <aside class="sidebar-container">
+            <div class="sidebar">
+                <p class="sidebar-title">component list</p>
+            <ul class="sidebar-items">
+                <li class="list-item"><a href="alerts.html">Alerts</a></li>
+                <li class="list-item"><a href="avatar.html">Avatars</a></li>
+                <li class="list-item"><a href="badges.html">Badges</a></li>
+                <li class="list-item"><a href="button.html">Buttons</a></li>
+                <li class="list-item"><a href="cards.html">Cards</a></li>
+                <li class="list-item"><a href="images.html">Image</a></li>
+                <li class="list-item"><a href="">Inputs</a></li>
+                <li class="list-item"><a href="">Lists</a></li>
+                <li class="list-item"><a href="">Navigation</a></li>
+                <li class="list-item"><a href="">Slider</a></li>
+                <li class="list-item"><a href="">Toast</a></li>
+               
+            </ul>
+            </div>
+            
+        </aside>
+
+        <section class="main-container">
+            <div class="title-wrapper">
+                <div class="component-title">
+                    <span class="title">Forms</span> 
+                </div>
+                <div class="about-component">
+                    <p class="about">Forms are used to take user data. Forms in Netra come under 2 categories viz. simple forms and forms with validation.</p>
+                </div>
+            </div>
+           
+            <div class="type-wrapper">
+                <div class="component-type">
+                    <span class="type-title"> Simple Form</span>
+                </div> 
+                <div class="about-type">
+                    <p class="about">Use the class <span class="required">required-field</span>  if you want the field to be mandatory, with required attribute in the input tag. </p> 
+                </div>
+                <img class="code-Ss" src="../../images/simple-form.png" alt="code-shot">
+            </div>
+            <div class="types-container">
+                <form action="input" class="input-form">
+                    <div class="input-box required-field">
+                        <label class="input-label" class="email-label " for="email">Email address</label></br>
+                        <input type="email" class="email-input" name="email" placeholder="enter your email" required>
+                    </div>
+                    <div class="input-box ">
+                        <label class="input-label"for="textarea">Text Area</label></form></br>
+                        <textarea class="text-area"name="textarea" id="" cols="50" rows="7"></textarea>
+                    </div>
+                    
+                </form>
+                
+            </div>
+
+            <div class="type-wrapper btn-wrapper">
+                <div class="component-type">
+                    <span class="type-title"> Form with validation </span>
+                </div> 
+                <!-- <div class="about-type">
+                    <p class="about">There are multiple sizes for square avatars as well. </p> 
+                </div> -->
+                <img class="code-Ss"src="../../images/validateForm.png" alt="code-shot">
+            </div>
+            <div class="types-container">
+                <form action="input" class="input-form">
+                    <div class="input-box required-field">
+                        <label class="input-label" class="email-label " for="email">Username</label></br>
+                        <p>for success</p>
+                        <input type="text" class="email-input success" name="email" placeholder="enter your user name" required>
+                        
+                    </div>
+                    <div class="input-box required-field">
+                        <label class="input-label"for="textarea">Password</label></form></br>
+                        <p>for failure</p>
+                        <input type="text" class="email-input failure" name="email" placeholder="enter your user password" required>
+                        
+                    </div>
+                    <a href="#" class="btn btn-primary">Login </a>
+                </form>
+                
+            </div>
+</body>
+</html>
