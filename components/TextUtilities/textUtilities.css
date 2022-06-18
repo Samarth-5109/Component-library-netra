@@ -1,0 +1,68 @@
+@import url("../../styles/doc.css");
+.wrapper {
+  display: flex;
+}
+
+.textUtilitiesH1,
+.h1 {
+  font-size: 2em;
+}
+.h2 {
+  font-size: 1.5em;
+}
+
+.h3 {
+  font-size: 1.17em;
+}
+
+.h4 {
+  font-size: 1em;
+}
+
+.h5 {
+  font-size: 0.83em;
+}
+
+.h6 {
+  font-size: 0.67em;
+}
+
+.text-xs {
+  font-size: 0.8rem;
+}
+
+.text-s {
+  font-size: 1rem;
+}
+
+.text-m {
+  font-size: 1.5rem;
+}
+
+.text-l {
+  font-size: 2rem;
+}
+
+.text-xl {
+  font-size: 2.5rem;
+}
+
+.center-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text-gray {
+  color: grey;
+}
+
+.mark {
+  padding: 3px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 2px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
