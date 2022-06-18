@@ -1,0 +1,33 @@
+@import url("../../styles/doc.css");
+.wrapper {
+  display: flex;
+}
+
+.list-type {
+  display: flex;
+  justify-content: space-between;
+}
+.list-type .ordered-list li {
+  list-style: lower-alpha;
+}
+
+.list-type .disc-type li {
+  list-style-type: disc;
+}
+
+.list-type .square-type li {
+  list-style: square;
+}
+
+.notification-avatar {
+  width: 3rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  margin-right: 1rem;
+}
+
+.stacked-list li {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
