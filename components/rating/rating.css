@@ -1,0 +1,8 @@
+@import url("../../styles/doc.css");
+.wrapper {
+  display: flex;
+}
+
+.checked {
+  color: var(--primary-color);
+}
