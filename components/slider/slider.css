@@ -1,0 +1,15 @@
+@import url("../../styles/doc.css");
+.wrapper {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.box .value {
+  font-weight: bold;
+  color: var(--primary-color);
+}
